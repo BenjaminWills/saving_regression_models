@@ -10,4 +10,8 @@ When in the parent directory run the following command:
 python regressor.py --file_path <filepath>
 ```
 
-To save to your `file_path` of choice.
+To save to your `file_path` of choice. Then to load your file, simply run the following command:
+
+```sh
+python load_regressor.py --file_path <filepath>
+```
