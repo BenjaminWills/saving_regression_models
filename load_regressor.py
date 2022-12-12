@@ -1,5 +1,7 @@
 import pickle
+from regressor import args
 
-
-with open("model/model.sav", "rb") as model:
+with open(args.file_path, "rb") as model:
     loaded_model = pickle.load(model)
+
+print(type(loaded_model))
