@@ -15,3 +15,9 @@ To save to your `file_path` of choice. Then to load your file, simply run the fo
 ```sh
 python load_regressor.py --file_path <filepath>
 ```
+
+Alternatively, run the following command:
+
+```sh
+zsh ./running_script.sh
+```
