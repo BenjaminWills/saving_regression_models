@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     mse = mean_squared_error(y_test, y_pred)
     r2 = r2_score(y_test, y_pred)
-    logger.info(f"Error statistics: \n \tMSE: {mse} \n \tr2: {r2}")
+    logger.info(f"Error statistics: \n \tMSE: {mse} \n \tr2: {r2:.2%}")
 
     # ======== SAVING THE MODEL ======#
     path = args.file_path
